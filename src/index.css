@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #575757;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#header {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+#calculator-container {
+  display: block; /*Use display: block and margin: auto to center calculator horizontally*/
+  margin: auto;
+  background: black;
+  border: 0.2rem solid black;
+  border-radius: 0.3rem;
+  width: 16rem;
+  height: 19.6rem;
+}
+
+#output-formula-container {
+  border: 0.2px solid black;
+  border-bottom: 0.18rem solid black;
+  border-radius: 0.3rem;
+  background-color: #272727;
+}
+
+#display {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: right;
+  height: 1.5rem;
+  padding: 0.2rem 0.5rem 0 0;
+}
+
+#formula {
+  color: #b4b4b4;
+  font-size: 0.9rem;
+  text-align: right;
+  height: 1rem;
+  padding: 0.2rem 0.5rem 0.2rem 0;
+}
+
+button {
+  border: 0.1px solid black;
+  border-radius: 0.3rem;
+  background-color: #aaaaaac2;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 4rem;
+  height: 3.28rem; /*calculator height is 19rem. output-formula-container is 2.6 when padding is included
+                      thus 16.4 / 5 button layers = 3.28rem */
+}
+
+button:hover {
+  color: black;
+  border: 0.1px solid white;
+}
+
+.jumbo {
+  width: 8rem; /*Because it needs to take up the width of two buttons and one button is 4rem */
+}
+
+#note {
+  margin-top: 0.2rem;
+  color: white;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+#author,
+a {
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+a {
+  color: #fc8c30;
+}
