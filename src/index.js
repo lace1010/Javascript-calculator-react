@@ -220,7 +220,7 @@ function MyCalculator() {
       <div id="author">
         Design and coded by <br />
         <a
-          href="https://codepen.io/lace1010/pen/dyXXYJE"
+          href="https://www.linkedin.com/in/hunter-lacefield-871995115/"
           target="_blank"
           rel="noreferrer"
         >
